@@ -1,0 +1,32 @@
+.header .navbar {
+    background-color: #161616;
+}
+
+.header .navbar .container {
+    flex-direction: row-reverse !important;
+}
+
+.header .navbar .container .navbar-collapse .navbar-nav {
+    padding: 10px;
+}
+
+.header .navbar .container .navbar-brand {
+    margin-top: -1%;
+}
+
+.header .navbar .container .navbar-collapse .navbar-nav a {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: large;
+    padding: 0 10px;
+}
+
+.header .navbar .container .navbar-collapse .navbar-nav a:hover::after {
+    content: '';
+    border-bottom: 3px solid #FF0000;
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}

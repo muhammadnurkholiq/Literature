@@ -1,0 +1,63 @@
+.landing .container {   
+}
+
+.landing .container .content{
+    display: flex;
+    flex-direction: row;
+}
+
+.landing .container .content .content-action {
+    width: 40%;
+    padding-top: 7%;
+}
+
+.landing .container .content .content-action h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 550%;
+    font-weight: 600;
+    line-height: 90%;
+}
+
+.landing .container .content .content-action p {
+    margin-top: 10%;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.landing .container .content .content-action .content-action-btn {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.landing .container .content .content-action .btn-signup{
+    background-color: #AF2E1C;
+    color: #FFFFFF;
+    width: 170px;
+}
+
+.landing .container .content .content-action .btn-signin{
+    background-color: #F9F9F9;
+    color: #000000;
+    width: 170px;
+}
+
+.landing .container .content .content-action .btn-signup:hover{
+    background-color: #9e2718;
+}
+
+.landing .container .content .content-action .btn-signin:hover{
+    background-color: #d4d3d3;
+}
+
+.landing .container .content .content-image {
+    width: 60%;
+    display: flex;
+    justify-content: center !important;
+}
+
+.landing .container .content .content-image .img-literature {
+    width: 78%;
+    margin-top: -2%;
+}

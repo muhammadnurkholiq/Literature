@@ -1,0 +1,27 @@
+.headerAdmin .dropdown {
+    width: 30%;
+    margin-left: 70%;
+}
+
+.headerAdmin .dropdown .dropdown-toggle {
+    width: 100%;
+}
+
+.headerAdmin .dropdown .dropdown-toggle img {
+    width: 100%;
+    border: 3px solid white;
+}
+
+.headerAdmin .dropdown .dropdown-menu {
+    margin: 2vh 0 0 -2vw !important;
+    padding: 5px;
+}
+
+.headerAdmin .dropdown .dropdown-menu img {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.headerAdmin .dropdown .dropdown-menu:hover {
+    background-color: rgb(229, 226, 226);
+}

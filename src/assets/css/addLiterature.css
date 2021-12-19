@@ -1,0 +1,95 @@
+.add-literature {
+    width: 80%;
+    margin: 2% auto;
+}
+
+.add-literature h1 {
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+
+.add-form .form-input {
+    font-weight: 700;
+    background-color: #454545 !important;
+    border: 3px solid #bcbcbc !important;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.add-form .form-input:focus{
+    background-color: #454545 !important;
+    border: 3px solid #bcbcbc !important;
+    color: #FFFFFF;
+}
+
+.add-form .form-input::placeholder {
+    color: #d0d0d0;
+    opacity: 1;
+}
+
+.add-form .attache {
+    font-weight: 700;
+    background-color: #454545;
+    border: 3px solid #bcbcbc;
+    width: 120%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-form .attache:hover {
+    cursor: pointer;
+}
+
+.add-form .attache p {
+    margin-bottom: -2px;
+    color: #d0d0d0
+}
+
+.add-form .attache img {
+    width: 10%;
+}
+
+.add-form .btn {
+    background-color: #EE4622;
+    padding: 8px 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    float: right;
+    margin-bottom: 2%;
+}
+
+.add-form .btn:hover {
+    background-color: #bb391c;
+    color: #FFFFFF;
+}
+
+.add-form .fileUpload {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.modal-content .modal-footer .btn-add-yes{
+    background-color: #EE4622;
+    color: #FFF;
+    width: 70px;
+    font-weight: 600;
+}
+
+.modal-content .modal-footer .btn-add-no{
+    background-color: #3f3d3d;
+    color: #FFF;
+    width: 70px;
+    font-weight: 600;
+}

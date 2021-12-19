@@ -1,0 +1,16 @@
+.noData {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.noData .noDataImg {
+    width: 50%;
+    margin: auto;
+}
+
+.noData h1{
+    font-weight: 600;
+}

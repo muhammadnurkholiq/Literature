@@ -1,0 +1,95 @@
+.homeAdmin {
+    background-color: #E5E5E5 !important;
+    width: 100%;
+    height: 87.8vh;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+
+.homeAdmin .homeAdmin-table  {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.homeAdmin .homeAdmin-table .tableScroll {
+    height: 69vh;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+
+.homeAdmin .homeAdmin-table h1 {
+    text-align: left;
+    margin-bottom: 3%;
+    color: #161616;
+    font-weight: 700;
+}
+
+.homeAdmin .homeAdmin-table .table thead {
+background-color: white;
+border: none;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td {
+    padding: 20px 10px 20px 10px;
+    font-weight: 600;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .textAttache {
+    color: #00d0f5;
+    text-decoration: none;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .status {
+    font-size: 90%;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .waiting {
+    color: #ffa200;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .approve {
+    color: #519259;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .cancel {
+    color: #F90716;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr:nth-child(odd) {
+    background-color: #E5E5E5 !important;
+    border: none;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr:nth-child(even) {
+    background-color: white;
+    border: none;
+} 
+
+.homeAdmin .homeAdmin-table .table tbody tr td .table-admin {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .table-admin .btn-admin-cancel {
+    background-color: #FF0742;
+    color: #161616;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .table-admin .btn-admin-approve {
+    background-color: #0ACF83;
+    color: #161616;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .table-admin .btn-admin-cancel:hover {
+    background-color: #b40931;
+}
+
+.homeAdmin .homeAdmin-table .table tbody tr td .table-admin .btn-admin-approve:hover {
+    background-color: #0a9761;
+}

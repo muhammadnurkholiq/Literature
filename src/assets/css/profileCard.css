@@ -1,0 +1,79 @@
+.profileCard {
+    margin-top: 2%;
+}
+
+.profile-card {
+    width: 100%;
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+/* profile data  */
+.profile-card .detail-profile {
+    width: 80%;
+    padding: 20px;
+}
+
+.profile-card .detail-profile .details-profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+}
+
+.profile-card .detail-profile .details-profile .profile-icon {
+    width: 5%;
+    height: 5%;
+    margin-top: 1.8%;
+}
+
+.profile-card .detail-profile .details-profile .detail-data {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.profile-card .details-profile .detail-data .detail-data-value{
+    height: 15px;
+    color: #FFFFFF;
+}
+
+.profile-card .details-profile .detail-data .detail-data-type{
+    color: #8A8C90;
+}
+
+.profile-card .details-profile .profile-input {
+    font-weight: 700;
+    background-color: #FFF;
+    border: 3px solid #bcbcbc;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #454545;
+}
+
+.profile-card .details-profile .profile-edit-icon {
+    width: 5%;
+    height: 5%;
+    margin-top: 1.8%;
+}
+
+/* profile image  */
+.profile-card .avatar-profile {
+    width: 25%;
+    padding: 30px;
+}
+
+.profile-card .avatar-profile .avatar-card {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+}
+
+.profile-card .avatar-profile .avatar-btn {
+    width: 100%;
+    margin-top: 10%;
+    background-color: #AF2E1C;
+    color: #FFFFFF;
+}
